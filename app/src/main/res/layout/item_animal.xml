@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:gravity="center"
+    android:id="@+id/ln_animal"
+    android:layout_marginBottom="20dp"
+    android:layout_height="150dp">
+    <ImageView
+        android:background="@drawable/bg_white_radius"
+        android:id="@+id/iv_animal"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/owl"
+        android:elevation="6dp"/>
+
+</LinearLayout>

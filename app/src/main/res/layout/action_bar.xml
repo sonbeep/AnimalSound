@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:background="@color/action_bar"
+    android:layout_height="56dp">
+
+    <ImageView
+        android:id="@+id/iv_menu"
+        android:layout_width="56dp"
+        app:tint="@color/white"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_menu"/>
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animal Sound"
+        android:textColor="@color/white"
+        android:layout_gravity="center_vertical"
+        android:textSize="30sp"
+        android:layout_marginStart="20dp"/>
+</LinearLayout>

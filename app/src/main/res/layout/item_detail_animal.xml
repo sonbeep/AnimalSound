@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+        <ImageView
+            android:background="@drawable/bg_white_radius"
+            android:id="@+id/iv_animal"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginVertical="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/owl"
+            android:elevation="6dp"/>
+        <ImageView
+            android:layout_marginEnd="50dp"
+            android:id="@+id/iv_search"
+            android:layout_width="50dp"
+            android:layout_marginStart="70dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:elevation="6dp"
+            android:src="@drawable/search"/>
+        <ImageView
+            android:layout_marginEnd="50dp"
+            android:id="@+id/iv_save"
+            android:layout_width="50dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="70dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="30dp"
+            android:elevation="6dp"
+            android:src="@drawable/ic_save"/>
+        <ImageView
+            android:layout_marginEnd="50dp"
+            android:id="@+id/iv_start"
+            android:layout_gravity="end"
+            android:layout_width="70dp"
+            android:layout_marginStart="50dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:elevation="6dp"
+            android:src="@drawable/start"/>
+    </FrameLayout>
+
+
