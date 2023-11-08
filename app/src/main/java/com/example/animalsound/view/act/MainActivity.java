@@ -1,13 +1,11 @@
 package com.example.animalsound.view.act;
 
 import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 
-import android.content.DialogInterface;
-import android.os.Bundle;
+
 import android.view.View;
 import android.view.animation.AnimationUtils;
 

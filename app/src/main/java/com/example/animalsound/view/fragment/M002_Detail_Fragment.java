@@ -50,7 +50,9 @@ public class M002_Detail_Fragment extends BaseFragment<M002DetailFragmentBinding
     protected void initView() {
         Animal animal = (Animal) data;
         callback.makeBackArrow(App.getInstance().getStorage().typeAnimal);
-        binding.vpAnimal.setAdapter(new DetailAdapter(context, App.getInstance().getStorage().listAnimal, view -> clickView(view)));
+        binding.vpAnimal.setAdapter(new DetailAdapter(context, App.getInstance().getStorage().listAnimal, v -> {
+            clickView(v);
+        }));
         binding.vpAnimal.addOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener(){
             @Override
             public void onPageSelected(int position) {
